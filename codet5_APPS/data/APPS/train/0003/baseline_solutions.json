@@ -1,0 +1,1 @@
+[{"code": "t = int(input())\nfor _ in range(t):\n\tn, k = map(int, input().split())\n\ta = list(map(int, input().split()))\n\ta.sort()\n\ta.reverse()\n\tfor i in range(k + 1):\n\t\ta[i] += a[i - 1]\n\tprint(a[0])\n", "result": true}]
