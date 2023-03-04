@@ -1,0 +1,1 @@
+{"2": {"codes": ["a = int(input())\nb = 0\nc = 0\nwhile b < a:\n\tc += 1\n\tif c == 10:\n\t\tb += 1\n\t\tcontinue\n\tif c > 1:\n\t\tb += c // 10\n\t\ta = b\n\telse:\n\t\tb += 1\nprint(a+b//10)\n"]}}
